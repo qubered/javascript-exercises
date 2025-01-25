@@ -5,6 +5,7 @@ const palindromes = function (word) {
     let reversedWord = cleanWord
                             .split("")
                             .reverse()
+                            .join("")
     return reversedWord == cleanWord;
 };
 
